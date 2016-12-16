@@ -1,0 +1,40 @@
+bool f_valid_student_name () {
+	printf("student`s name is true");
+	return true;
+}
+
+bool f_valid_student_surname () {
+	printf("student`s surname is true");
+	return true;
+}
+
+bool f_valid_student_group () {
+	printf("student`s group number is true");
+	return true;
+}
+
+bool f_valid_teacher_name () {
+	printf("teacher`s name is true");
+	return true;
+}
+
+bool f_valid_teacher_surname () {
+	printf("teacher`s surname is true");
+	return true;
+}
+
+bool f_valid_discipline_name () {
+	printf("subject name is true");
+	return true;
+}
+
+bool f_valid_discipline_type () {
+	printf("type of subject is true");
+	return true;
+}
+
+bool f_valid_student_mark () {
+	printf("student`s mark is true");
+	return true;
+}
+
