@@ -1,0 +1,24 @@
+enum subject {"exam"; "default subject"; "differential subject"}
+
+struct teacher {
+	char teacher_name[];
+	char teacher_surname[];
+}
+
+struct student {
+	char student_name[];
+	char student_surname[];
+	char student_group[];
+}
+
+struct discipline {
+	char discipline_name[];
+	enum subject discipline_type;
+	struct teacher* teacher_info;	
+}
+
+struct student`s_mark {
+	struct student* student_info;
+	struct discipline* discipline_info;
+	int student_mark;
+}
